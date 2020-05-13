@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+header {
+	color: white;
+}
+
+header .navbar-left span {
+	font-size: 20px;
+}
+
+table{
+ 	border-collapse: collapse;
+ }
+
+.books-table {
+	border-collapse: collapse;
+	width: 700px;
+	text-align: left;
+}
+
+.books-thead {
+	border-bottom: 2px solid grey;
+}
+
+.books-td{
+	border-bottom: 1px solid grey;
+}
+
+.users-table {
+	border-collapse: collapse;
+	width: 700px;
+	text-align: left;
+}
+
+.users-thead {
+	border-bottom: 2px solid grey;
+}
+
+.users-td{
+	border-bottom: 1px solid grey;
+}
+
+.user-info-table {
+	width: 300px;
+	text-align: left;
+}
+
+.user-info-table-th {
+	border-top: 1px solid grey;
+}
+
+.book-edit-td {
+	width: 200px;
+	border-top: 1px solid grey;
+}
+
+.body-col {
+	margin-bottom: 15px;
+}
+
+.new-col {
+	margin-bottom: 15px;
+}
